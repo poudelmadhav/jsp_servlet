@@ -1,0 +1,103 @@
+07-Jul-2019 17:02:48.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.20
+07-Jul-2019 17:02:48.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2019 22:26:00 UTC
+07-Jul-2019 17:02:48.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.20.0
+07-Jul-2019 17:02:48.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Jul-2019 17:02:48.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-54-generic
+07-Jul-2019 17:02:48.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jul-2019 17:02:48.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+07-Jul-2019 17:02:48.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.3+7-Ubuntu-1ubuntu218.04.1
+07-Jul-2019 17:02:48.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jul-2019 17:02:48.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/madhav/.local/tomcat/apache-tomcat9
+07-Jul-2019 17:02:48.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/madhav/.local/tomcat/apache-tomcat9
+07-Jul-2019 17:02:48.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jul-2019 17:02:48.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jul-2019 17:02:48.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jul-2019 17:02:48.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/madhav/.local/tomcat/apache-tomcat9/conf/logging.properties
+07-Jul-2019 17:02:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jul-2019 17:02:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jul-2019 17:02:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jul-2019 17:02:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Jul-2019 17:02:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jul-2019 17:02:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/madhav/.local/tomcat/apache-tomcat9
+07-Jul-2019 17:02:48.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/madhav/.local/tomcat/apache-tomcat9
+07-Jul-2019 17:02:48.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/madhav/.local/tomcat/apache-tomcat9/temp
+07-Jul-2019 17:02:48.504 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+07-Jul-2019 17:02:48.949 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+07-Jul-2019 17:02:48.992 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Jul-2019 17:02:48.996 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [819] milliseconds
+07-Jul-2019 17:02:49.106 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jul-2019 17:02:49.106 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.20]
+07-Jul-2019 17:02:49.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/host-manager]
+07-Jul-2019 17:02:49.590 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/host-manager] has finished in [473] ms
+07-Jul-2019 17:02:49.591 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/manager]
+07-Jul-2019 17:02:49.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/manager] has finished in [60] ms
+07-Jul-2019 17:02:49.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/docs]
+07-Jul-2019 17:02:49.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/docs] has finished in [57] ms
+07-Jul-2019 17:02:49.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/examples]
+07-Jul-2019 17:02:50.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/examples] has finished in [491] ms
+07-Jul-2019 17:02:50.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/swastik]
+07-Jul-2019 17:02:50.778 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/swastik] has finished in [577] ms
+07-Jul-2019 17:02:50.779 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/ROOT]
+07-Jul-2019 17:02:50.808 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/ROOT] has finished in [29] ms
+07-Jul-2019 17:02:50.815 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+07-Jul-2019 17:02:50.834 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Jul-2019 17:02:50.839 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,842] milliseconds
+07-Jul-2019 18:11:19.454 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-Jul-2019 18:11:19.455 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+07-Jul-2019 18:11:19.464 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Jul-2019 18:11:19.470 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jul-2019 18:11:19.539 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+07-Jul-2019 18:11:19.543 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Jul-2019 18:11:19.545 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+07-Jul-2019 18:11:19.546 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Jul-2019 18:11:21.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.20
+07-Jul-2019 18:11:21.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 3 2019 22:26:00 UTC
+07-Jul-2019 18:11:21.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.20.0
+07-Jul-2019 18:11:21.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Jul-2019 18:11:21.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-54-generic
+07-Jul-2019 18:11:21.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jul-2019 18:11:21.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+07-Jul-2019 18:11:21.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.3+7-Ubuntu-1ubuntu218.04.1
+07-Jul-2019 18:11:21.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jul-2019 18:11:21.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/madhav/.local/tomcat/apache-tomcat9
+07-Jul-2019 18:11:21.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/madhav/.local/tomcat/apache-tomcat9
+07-Jul-2019 18:11:21.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Jul-2019 18:11:21.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Jul-2019 18:11:21.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Jul-2019 18:11:21.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/madhav/.local/tomcat/apache-tomcat9/conf/logging.properties
+07-Jul-2019 18:11:21.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jul-2019 18:11:21.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jul-2019 18:11:21.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jul-2019 18:11:21.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Jul-2019 18:11:21.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Jul-2019 18:11:21.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/madhav/.local/tomcat/apache-tomcat9
+07-Jul-2019 18:11:21.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/madhav/.local/tomcat/apache-tomcat9
+07-Jul-2019 18:11:21.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/madhav/.local/tomcat/apache-tomcat9/temp
+07-Jul-2019 18:11:21.780 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+07-Jul-2019 18:11:22.274 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+07-Jul-2019 18:11:22.320 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Jul-2019 18:11:22.324 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [860] milliseconds
+07-Jul-2019 18:11:22.431 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Jul-2019 18:11:22.432 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.20]
+07-Jul-2019 18:11:22.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/host-manager]
+07-Jul-2019 18:11:22.927 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/host-manager] has finished in [481] ms
+07-Jul-2019 18:11:22.927 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/manager]
+07-Jul-2019 18:11:22.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/manager] has finished in [50] ms
+07-Jul-2019 18:11:22.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/docs]
+07-Jul-2019 18:11:23.016 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/docs] has finished in [38] ms
+07-Jul-2019 18:11:23.017 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/examples]
+07-Jul-2019 18:11:23.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/examples] has finished in [471] ms
+07-Jul-2019 18:11:23.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/swastik]
+07-Jul-2019 18:11:23.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/swastik] has finished in [364] ms
+07-Jul-2019 18:11:23.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/ROOT]
+07-Jul-2019 18:11:23.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/madhav/.local/tomcat/apache-tomcat9/webapps/ROOT] has finished in [26] ms
+07-Jul-2019 18:11:23.885 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+07-Jul-2019 18:11:23.918 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Jul-2019 18:11:23.937 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,612] milliseconds
+07-Jul-2019 20:25:23.503 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+07-Jul-2019 20:25:23.556 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Jul-2019 20:25:23.563 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Jul-2019 20:25:23.642 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+07-Jul-2019 20:25:23.645 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Jul-2019 20:25:23.653 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+07-Jul-2019 20:25:23.654 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

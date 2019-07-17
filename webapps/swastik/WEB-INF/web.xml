@@ -1,0 +1,41 @@
+<web-app>
+  <servlet>
+    <servlet-name>HelloWorld</servlet-name>
+    <servlet-class>HelloWorldSwastik</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>HelloThere</servlet-name>
+    <servlet-class>HelloThereSwastik</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>HelloGet</servlet-name>
+    <servlet-class>HelloGetSwastik</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>RegisterUserForm</servlet-name>
+    <servlet-class>RegisterUser</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>HelloWorld</servlet-name>
+    <url-pattern>/hello-world</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>HelloThere</servlet-name>
+    <url-pattern>/hello-there</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>HelloGet</servlet-name>
+    <url-pattern>/hello-get</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>RegisterUserForm</servlet-name>
+    <url-pattern>/submit-form</url-pattern>
+  </servlet-mapping>
+</web-app>
